@@ -36,6 +36,18 @@ Diseñar un prototipo funcional que:
 
 ---
 
+## 🔒 Buenas prácticas de repositorio
+Se implementó un archivo .gitignore para mantener el repositorio limpio y seguro. Este archivo excluye:
+- Entornos virtuales (venv/)
+- Credenciales y configuraciones (.env, *.ini, *.cfg)
+- Archivos compilados de Python (__pycache__/, *.pyc)
+- Logs y archivos temporales (*.log, *.tmp)
+- Configuraciones locales de VSCode (.vscode/)
+- Archivos de sistema (.DS_Store, Thumbs.db)
+Esto garantiza que el repositorio sea portable, seguro y profesional, facilitando su mantenimiento y colaboración.
+
+---
+
 ## ⚙️ Instalación
 
 1. Clonar el repositorio
